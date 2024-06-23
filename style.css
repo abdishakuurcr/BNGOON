@@ -1,0 +1,170 @@
+* {
+margin: 0;
+padding: 0;
+}
+.project1 {
+background-color: black;
+border: 3px rgb(167, 5, 126) solid;
+display: flex;
+padding: 20px;
+justify-content: space-between;
+color: beige;
+gap: 40px;
+text-align: center;
+}
+.project1 ul {
+display: flex;
+justify-content: space-between;
+gap: 40px;
+list-style: none;
+
+}
+ul li {
+margin-left: 20px;
+}
+.project1 p {
+background-color: #FFBF00;
+color: black;
+font-size: 15px;
+padding: 6px;
+border-radius: 8px;
+}
+.parent {
+    display: flex;
+    background-color: #FFBF00;
+    justify-content: space-between;
+    padding: 40px;
+    height: 100vh;
+    padding-top: 90px;
+}
+.parent h5 {
+margin-left: 100px;
+padding-top: 25px;
+font-size: 10px;
+}
+.parent h1 {
+font-size: 70px;
+padding-top: 20px;
+margin-left: 80px;
+}
+
+.parent p {
+padding: 10px;
+margin-left: 70px;
+font-size: 20px;
+}
+ .btn2 span{
+color: #FFBF00;
+ }
+ .btn2 {
+background-color: black;
+color: white;
+padding: 10px;
+margin-left: 80px;
+border-radius: 12px;
+margin-top: 12px;
+ }
+ .parent-form{
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 460px;
+    border-radius: 12px;
+    margin-right: 180px;
+    font-size: 20px;
+    text-align: center;
+ }
+ .formka{
+padding: 30px;
+width: 450px;
+margin: 16px;
+padding: 12px;
+ }
+ .formka h1 {
+font-size: 30px;
+padding-top: 12px;
+ }
+ .formka p {
+margin-right: 100px;
+ }
+ .formka input {
+border: 0.1px black solid;
+border-radius: 5px;
+height: 30px;
+width: 250px;
+margin: 3px;
+ }
+ .sawirkaguud{
+    height: 100vb;
+    margin-top: 60px;
+    padding: 20px;
+     margin-left: 20px;
+     font-size: 13px;
+}
+.sawirkaguud h2{
+    padding-left: 1110px;
+    font-size: 16px;
+}
+.sawirkaguud img{
+    height: 250px;
+    width: 230px;
+    border-radius: 10px;
+}
+.groupka-sawirka-hayo{
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 600px) {
+ .project1 ul {
+ display: none;
+ }   
+ .project1 p {
+ display: none;
+ }
+ .parent {
+ display: block;
+
+ }
+  .parent h5 {
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 0px;
+  }
+  .parent h1 {
+  margin-left: 0px;
+  font-size: 25px;
+  margin-top: 0px;
+  padding-top: 10px;
+  }
+  .parent p {
+  margin-left: 0px;
+  }
+  .btn2 {
+  margin-left: 0px;
+  }
+  .parent-form {
+ margin-left: 0px;
+  }
+  .formka {
+ margin-left: 0px;
+  }
+  .sawirkaguud {
+ margin-left: 0px;
+  }
+  .groupka-sawirka-hayo {
+  display: block;
+  margin: 20px;
+  }
+  .sawirkaguud h2 {
+ margin-left: 0px;
+ display: block;
+  }
+.i{
+ font-size: 28px;
+ color: aliceblue;
+  }
+}
+ 
